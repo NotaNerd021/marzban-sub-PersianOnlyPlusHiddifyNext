@@ -8,16 +8,14 @@
 ## فهرست مطالب
 - [ویژگی‌ ها](#ویژگی-ها)
 - [مراحل نصب](#مراحل-نصب)
-- [زبان پیش فرض](#زبان-پیش-فرض)
--  [نسخه هاست](#نسخه-هاست)
 
+- 
 # مقدمه
 یک قالب html ساده برای نمایش بهتر اطلاعات کاربر
 
 # ویژگی ها
 - افزودن سریع لینک سابسکریپشن به برنامه ها
 - لینک دانلود اپلیکیشن های مورد نیاز
-- دو زبانه (انگلیسی,فارسی)
 - پیج ساب فانتزی با رنگ و لعاب زیبا
 - دریافت کانفیگ ها با آیکون کپی در آخر صفحه
 
@@ -47,15 +45,6 @@ marzban restart
 ## بروزرسانی
 برای بروزرسانی تمپلیت فقط کافیست مرحله 1 را تکرار کنید.
 
-# زبان پیش فرض
-برای عوض کردن زبان پیش فرض کافیست در فایل html به آخر کد مراجعه کنید و زبان مورد نظرتونو توی تگ select بالا بیارین. مثال:
-```
-<select id="countries" class="border text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white :focus:ring-blue-500 :focus:border blue-500">
-  <option value="fa">فارسی</option>
-  <option value="en">English</option>
-</select>
-```
-در این مثال زبان اصلی فارسی است.
 
 # شخصی سازی
 برای شخصی سازی ایدی تلگرام, تصویر پس زمینه و لوگوی کاربر باید تغییراتی در فایل html لحاظ شود که با سرچ کردن برخی مقادیر امکان پذیره.
@@ -76,17 +65,15 @@ background: url('https://4kwallpapers.com
 # Table of Contents
 - [Attributes](#Attributes)
 - [Installation Steps](#Install-Steps)
-- [Default Language](#Default-Language)
 - [Personalization](#Personalization)
-- [Host Version](#Host-Version)
 
+ 
 # Introduction
 A simple html template to better display user information
 
 # Attributes
 - Quickly add subscription links to programs
 - The link to download the required applications
-- Two languages (English, Persian)
 - Sub fantasy page with beautiful color and glaze
 - Receive the configs with the copy icon at the bottom of the page
 # Installation Steps
@@ -113,16 +100,6 @@ marzban restart
 
 ## Update
 To update the template, just repeat step 1.
-
-# Default Language
-To change the default language, just refer to the end of the code in the html file and select the desired language in the select tag. Example:
-```
-<select id="countries" class="border text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white :focus:ring-blue-500 :focus:border blue-500">
-  <option value="en">English</option>
-  <option value="fa">فارسی</option>
-</select>
-```
-In this example, the main language is English.
 
 # Personalization
 To personalize the Telegram ID, background image and user logo, changes must be included in the html file, which is possible by searching for some values.
