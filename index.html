@@ -3272,11 +3272,11 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
             return percentage < 40 ? 'text-green-500' : percentage < 80 ? 'text-yellow-600' : 'text-red-500';
         }
 
-        function openFoXrayURL() {
+        function openhiddifyIOSURL() {
             var currentURL = window.location.href;
             var encodedURL = btoa(currentURL);
-            var foXrayURL = 'foxray://yiguo.dev/sub/add/?url=' + encodedURL + '#name';
-            window.location.href = foXrayURL;
+            var hiddifyIOSURL = 'hiddify://import/${fullUrl}' + encodedURL + '#name';
+            window.location.href = hiddifyIOSURL;
         }
 
         function openShadowrocketURL() {
@@ -3498,11 +3498,11 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                     ],
                     tutorial: "",
                 },
-                FoXray: {
+                hiddifyIOS: {
                     url: [
                         {
                             name: "IOS 16+",
-                            url: "https://apps.apple.com/us/app/foxray/id6448898396",
+                            url: "https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532",
                             best: false,
                         },
                     ],
@@ -3615,12 +3615,12 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                 Hiddify: "اندروید - دانلود برنامه Hiddify",
                 SingBox: "اندروید - دانلود برنامه Sing-Box",
                 Streisand: "آی او اِس - دانلود برنامه Streisand",
-                FoXray: "آی او اِس - دانلود برنامه FoXray",
+                hiddifyIOS: "آی او اِس - دانلود برنامه hiddifyIOS",
                 V2Box: "آی او اِس - دانلود برنامه v2Box",
                 addto: "نصب با یک کلیک",
                 addV2rayNG: "v2rayNG",
                 addStreisand: "Streisand",
-                addFoXray: "FoXray",
+                addhiddifyIOS: "Hiddify IOS",
                 addHiddify: "Hiddify Next",
                 addV2Box: "v2Box",
                 addShadowrocket: "Shadowrocket",
@@ -4170,7 +4170,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                                             </clipPath>
                                                                         </defs>
                                                                     </svg>
-                                                                    <span x-text="$t('addFoXray')">
+                                                                    <span x-text="$t('addhiddifyIOS')">
                                                                     </span>
                                                                 </div>
                                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -4228,7 +4228,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                                         <p x-text="$t('clickForDownload')"
                                                                             class="text-sm mb-4 font-normal text-white lg:text-base">
                                                                         </p>
-                                                                        <a href="https://apps.apple.com/us/app/foxray/id6448898396"
+                                                                        <a href="https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532"
                                                                             class="flex mb-4 items-center gap-x-4 w-full bg-gray-800 shadow-md px-3 py-2 rounded-3xl justify-between">
                                                                             <lord-icon class="w-8 h-8"
                                                                                 src="https://cdn.lordicon.com/albqovim.json"
@@ -4257,7 +4257,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                                         <p x-text="$t('clickForAdd')"
                                                                             class="text-sm mb-4 font-normal text-white lg:text-base">
                                                                         </p>
-                                                                        <button onclick="openFoXrayURL()"
+                                                                        <button onclick="openhiddifyIOSURL()"
                                                                             class="flex mb-4 items-center gap-x-4 w-full bg-stone-800 shadow-md px-3 py-2 rounded-3xl justify-between">
                                                                             <lord-icon class="w-8 h-8"
                                                                                 src="https://cdn.lordicon.com/mrdiiocb.json"
