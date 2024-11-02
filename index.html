@@ -3202,6 +3202,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
             document.getElementById("android-singbox").href = `sing-box://import-remote-profile?url=${fullUrl}#Sub`;
             document.getElementById("android-hiddify").href = `hiddify://import/${fullUrl}#name`;
             document.getElementById("windows-hiddifydesktop").href = `hiddify://import/${fullUrl}#name`
+            document.getElementById("hiddifyIOS").href = `hiddify://import/${fullUrl}#name`
 
 
             // Android Apps
@@ -3272,12 +3273,6 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
             return percentage < 40 ? 'text-green-500' : percentage < 80 ? 'text-yellow-600' : 'text-red-500';
         }
 
-        function openhiddifyIOSURL() {
-            var currentURL = window.location.href;
-            var encodedURL = btoa(currentURL);
-            var hiddifyIOSURL = 'hiddify://import/${fullUrl}' + encodedURL + '#name';
-            window.location.href = hiddifyIOSURL;
-        }
 
         function openShadowrocketURL() {
             var currentURL = window.location.href;
